@@ -34,12 +34,8 @@ def solve_scheduling(data):
         assign = {}
         for i in persons:
             assign[i] = model[timeslots[i]].as_long()
-
-
         unique_solutions.add(tuple(sorted([(i, assign[i]) for i in persons])))
-
         solver.add(Or([timeslots[i] != assign[i] for i in assign]))
-
     return unique_solutions
 
 if __name__ == "__main__":
