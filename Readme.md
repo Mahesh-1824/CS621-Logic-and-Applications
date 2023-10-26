@@ -5,6 +5,8 @@ To run a question run the following commands
 In windows - python filename.py
 In Linux - python3 filename.py
 
+For question 1:
+
 For question 2 :
 Input is taken from 2.txt file
 The names of vertices in line 1 
