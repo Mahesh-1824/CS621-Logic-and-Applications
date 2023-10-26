@@ -3,20 +3,16 @@ from z3 import *
 def create_coloring_solver(vertices, edges, num_colors):
     solver = Solver()
     colors = {v: Int(f"{v}_color") for v in vertices}
-    
     for v in vertices:
         solver.add(And(colors[v] >= 1, colors[v] <= num_colors))
-    
     for u, v in edges:
         solver.add(colors[u] != colors[v])
-    
     return solver, colors
 
 def find_graph_coloring(vertices, edges):
     num_vertices = len(vertices)
     num_colors_used = 1
     soln = None
-    
     while not soln:
         solver, colors = create_coloring_solver(vertices, edges, num_colors_used)
         if solver.check() == sat:
@@ -29,7 +25,6 @@ def find_graph_coloring(vertices, edges):
             num_colors_used += 1
             if num_colors_used > num_vertices:
                 break
-    
     return soln
 
 def main(input_file):
