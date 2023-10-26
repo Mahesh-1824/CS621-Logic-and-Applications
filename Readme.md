@@ -22,7 +22,7 @@ This script reads input data from a file named `2.txt`. The file format is as fo
 - Subsequent lines: Pairs of vertices with an edge between them, one pair per line.
 
 ### Sample Input (2.txt):
-A B C D
+A B C D<br>
 A B<br>
 A C<br>
 A D<br>
