@@ -11,30 +11,33 @@ To run the provided Python scripts, you need to have Python 3 and the Z3 solver 
 
 ## Question 1
 
+This script solves a specific problem. No input files are required. You can run the script directly.
 
 ## Question 2
 
 This script reads input data from a file named `2.txt`. The file format is as follows:
 
 - Line 1: Names of vertices separated by spaces.
+
 - Subsequent lines: Pairs of vertices with an edge between them, one pair per line.
 
 ### Sample Input (2.txt):
 A B C D
-A B
-A C
-A D
-B D
+A B<br>
+A C<br>
+A D<br>
+B D<br>
 C D
 
 ## Question 3
 
 This script reads input data from a file named `3.txt`. The file format is as follows:
 
-- Line 1: Elements of the first row of the matrix, separated by spaces.
-- Subsequent lines: Elements of the matrix, one row per line.
+- Elements of the matrix, one row per line.
 
 ### Sample Input (3.txt):
+
+1 1 1<br>
+1 1 1<br>
 1 1 1
-1 1 1
-1 1 1
+
