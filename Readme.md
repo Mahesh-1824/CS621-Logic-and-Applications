@@ -10,7 +10,7 @@ To run the provided Python scripts, you need to have Python 3 and the Z3 solver 
 - In Linux: `python3 filename.py`
 
 ## Question 1
-
+Just run the code
 ## Question 2
 
 This script reads input data from a file named `2.txt`. The file format is as follows:
