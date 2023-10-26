@@ -1,18 +1,25 @@
-Intial requirements :
-Need to have python3 and z3 solver installed in our PC
+# Readme
 
-To run a question run the following commands 
-In windows - python filename.py
-In Linux - python3 filename.py
+This repository contains Python scripts for solving three different questions using the Z3 solver. Before running the scripts, ensure that you have Python 3 and the Z3 solver installed on your PC.
 
-For question 1:
+## Initial Requirements
 
-For question 2 :
-Input is taken from 2.txt file
-The names of vertices in line 1 
-In the following lines give the vertices who has edge between them (one pair in one line)
+To run the provided Python scripts, you need to have Python 3 and the Z3 solver installed on your computer. You can run the scripts as follows:
 
-Sample Input:
+- In Windows: `python filename.py`
+- In Linux: `python3 filename.py`
+
+## Question 1
+
+
+## Question 2
+
+This script reads input data from a file named `2.txt`. The file format is as follows:
+
+- Line 1: Names of vertices separated by spaces.
+- Subsequent lines: Pairs of vertices with an edge between them, one pair per line.
+
+### Sample Input (2.txt):
 A B C D
 A B
 A C
@@ -20,11 +27,14 @@ A D
 B D
 C D
 
-For question 3 :
-Input is taken from 3.txt file
-Simply write the matrix elements ,i.e., first row elements in line 1 with a space between them 
+## Question 3
 
-Sample Input:
+This script reads input data from a file named `3.txt`. The file format is as follows:
+
+- Line 1: Elements of the first row of the matrix, separated by spaces.
+- Subsequent lines: Elements of the matrix, one row per line.
+
+### Sample Input (3.txt):
 1 1 1
 1 1 1
 1 1 1
